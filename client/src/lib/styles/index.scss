@@ -1,0 +1,18 @@
+body {
+  --color-dark-gray: #232729;
+  --color-white: white;
+
+  --gradient-pink-light-blue: linear-gradient(90.86deg, #fc5c7d 1.8%, #6a82fb 87.23%);
+  --gradient-light-blue-pink: linear-gradient(-90.86deg, #fc5c7d 1.8%, #6a82fb 87.23%);
+
+  --color-text-primary: var(--color-white);
+  --color-text-contrast: var(--color-dark-gray);
+
+  --color-bg-primary: var(--color-dark-gray);
+  --color-bg-contrast: var(--color-white);
+
+  margin: 0;
+  font-family: Unbounded, sans-serif;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+}
